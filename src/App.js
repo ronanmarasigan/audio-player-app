@@ -48,7 +48,7 @@ function App() {
         return currentSongIndex + 1;
       }
     });
-  }, [currentSongIndex]);
+  }, [currentSongIndex, songs.length]);
 
   return (
     <div className="flex items-center justify-center w-full overflow-hidden bg-gradient min-h-[100vh]">
